@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Inactivated this part to avoid conflict (Nirmal) */
+
+
+.dashboard {
+  background-color: #b2e4fa;
+  display: flex;
+  min-height: 85vh;
+  color: #707070;
+}
+
+.objectives-nav {
+  background-color: #43c0f6;
+  width: auto;
+}
+
+.objective{
+  display: flex;
+  text-align: left;
+}
+
+.objective .ul:hover {
+  background-color: #b2e4fa;
+  color: #707070;
+} 
+
+.show-nav{
+  justify-content: center;
+}
+
+.show-nav img{
+  margin-right: 10px;
+}
+.show-nav ul{
+  padding-right: 1rem;  
+  color: white;
+  padding: 1rem;
+  list-style-type: none;
+  text-align: center;
+  font-size: 14px;
+}
+
+.hide-nav{
+  justify-content: center;
+}
+
+.hide-nav ul{
+  text-align: center;
+  padding-right: 1rem;  
+  padding-inline-start: 0px;
+  color: white;
+  padding: 1rem;
+}
+
+.inner-container {
+  background-color: #d4ecf6;
+  border-radius: 20px;
+  width: 100%;
+  margin: 2rem;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+
+.avatar {
+  padding: 15px;
+  margin: 15px;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  font-family: 'Nunito', sans-serif;
+}
+
+.codeblock {
+  width: 50%;
+}
+
+.pink-text {
+  color: #f91c85;
+  font-weight: bold;
+}
+
+.submit-btn{
+  background-color: #f91c85;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px #707070;
+}
+/* 
+a{
+  text-decoration: none;
+} */
+
+.page {
+  width: 90%;
+}
+
+.arrow-btn{
+  float: right;
+}
+
+.student-projects{
+  display: flex;
+  align-items: center;
+}
+
+.student-project-circles{
+  display: inline-block;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  /* background-color: #43c0f6; */
+  border:2px solid #43c0f6;    
+}
+
+
+.video{
+  text-align: center;
+}
+
+
+.flex-container{
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.session{
+  width: 50%;
+  align-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.submit-img{
+  width: 100%;
+}

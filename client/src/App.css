@@ -1,0 +1,309 @@
+
+body {
+  font-family: "Nunito", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.headerContainerN {
+  width: 100%;
+  background-color: #43c0f6;
+  box-shadow: 0px 3px 6px #00000029;
+  display: flex;
+  align-items: center;
+  color: white;
+
+}
+
+.contentContainerN {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+
+}
+
+.logoN img {
+  height: 3.5rem;
+  padding-top: 0.5rem;
+}
+
+.navBarN {
+  width: 23vw;
+  display: flex;
+
+  padding-bottom: 0.6rem;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.navBarN .navbarLinkN {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 0.1rem;
+}
+
+.langAndUserN {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.langBlockN {
+  display: flex;
+  align-items: center;
+
+  gap: 0.8rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.langBlockN #nzFlag {
+  height: 0.7rem;
+}
+.langBlockN #maoriFlag {
+  height: 0.7rem;
+}
+
+.userBlockN {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.09rem;
+
+}
+
+.userBlockN a {
+  text-decoration: none;
+  color: white;
+}
+
+.studentNameN {
+  text-transform: uppercase;
+}
+
+.userProfileN {
+  /* border: 1px solid red; */
+  width: 10rem;
+  position: absolute;
+  top: 4.4rem;
+  z-index: 1;
+  background-color: #42BFF6;
+}
+
+.userProfileN-list {
+  list-style: none;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap:1rem
+}
+
+.userProfileN-list a {
+  color: white;
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+.userProfileN-list a:hover {
+  color: #707070;
+}
+
+.userBlockN .userImgN {
+  height: 1.7rem;
+
+}
+
+.projectContainerN {
+  width: 100%;
+  color: #6c6c6c;
+}
+
+.projectContainerN .containerN {
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+.projectHeaderN {
+  /* border: 1px solid red; */
+
+  width: 80%;
+  margin-left: auto;
+  padding: 5rem 0 3rem 0;
+}
+
+.projectHeaderN .phN {
+  font-weight: bold;
+}
+
+.projectFilterN {
+  /* border: 1px solid red; */
+
+  width: 14%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.projectFilterN .pfh5N {
+  border-bottom: 1px solid #6c6c6c;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.projectFilterN span {
+  margin-left: 1rem;
+}
+
+.projectFilterN label {
+  line-height: 1.2rem;
+  font-size: 0.9rem;
+}
+
+.projectBoardContainerN {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectsBoardN {
+  width: 80%;
+
+}
+
+.filterBarN {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.itemsPerPageButtonN {
+  display: flex;
+  align-items: center;
+}
+
+.itemsPerPageButtonN button {
+  border: none;
+  cursor: pointer;
+  padding: 0.1rem 1rem;
+  font-size: 0.9rem;
+}
+
+.itemsPerPageButtonN button:nth-child(1) {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.itemsPerPageButtonN button:nth-child(3) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.itemsPerPageButtonN button:not(:last-child) {
+  border-right: 1px solid #cccccc;
+}
+
+.itemsPerPageButton-activeN {
+  background-color: #1685FF;
+  color: white;
+}
+
+.showN {
+  cursor: pointer;
+  color: #767676;
+  margin-left: 33rem;
+}
+
+.subProjectContainerN {
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+
+.eachProjectN {
+  text-align: center;
+
+  margin: 0 auto;
+}
+
+.eachProjectN p:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.2rem 0;
+
+  width: 75%;
+  margin: 0 auto;
+}
+
+.eachProjectN img {
+  height: 13rem;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 5px #00000029;
+  cursor: pointer;
+}
+
+.backToTopDivN {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.backToTopDivN a {
+  text-decoration: none;
+  color: white;
+  background-color: #e5ab2c;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 5px #00000029;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+/* Footer CSS starts from here */
+
+.footerContainerN {
+  width: 100%;
+  background-color: #b2e4fa;
+  color: #707070;
+}
+
+.main-footerN {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.rowN {
+  display: flex;
+  justify-content: center;
+  margin: 8%;
+}
+
+.columnN {
+  margin: 4%;
+}
+
+.list-unstyledN {
+  list-style: none;
+  font-size: 1vw;
+}
+
+.emailN {
+  text-decoration: none;
+  color: #707070;
+}
+
+.liClassN {
+  cursor: pointer;
+}

@@ -1,0 +1,293 @@
+.modal-background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  z-index: 101;
+}
+
+.modal-container {
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem;
+  box-shadow: #707070;
+  align-items: center;
+  z-index: 101;
+}
+
+@media only screen and (max-width: 600px) {
+  .sign-up-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: nunito;
+    width: 90vw;
+    padding: 5px;
+    object-fit: contain;
+    font-size: 3em;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .sign-up-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: nunito;
+    width: 1000px;
+    padding: 5px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .sign-up-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: nunito;
+    width: 1000px;
+    padding: 5px;
+  }
+
+  .login-signup-btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 3%;
+  }  
+}
+
+/* .sign-up-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: nunito;
+  /* gap: 5%; */
+  /* margin-top: 5%; */
+  /* width: 1000px; */
+  /* height: 100vh; */
+  /* padding: 5px; */
+  /* border: 1px solid red; */
+/* } */ */
+.sign-up-student-container {
+  border-right: 1.5px solid #707070;
+}
+.sign-up-teacher-container {
+  border-left: 1.5px solid #707070;
+}
+
+.sign-up-student-container,
+.sign-up-teacher-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  /* margin-top: 5%; */
+  /* border: 1px solid red; */
+}
+
+.student-image-title-container,
+.teacher-image-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.sign-up-teacher-title {
+  margin-top: 4%;
+}
+
+.student-image-title-container {
+  margin-top: 10%;
+}
+
+.close-sign-up {
+  align-self: flex-end;
+  margin-right: 15%;
+  border: none;
+  text-decoration: none;
+  background-color: white;
+}
+
+.bi-x {
+  color: #707070;
+  font-size: 3rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-teacher-image,
+.sign-up-student-image {
+  height: 300px;
+  width: 300px;
+}
+
+/* .login-signup-btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 3%;
+} */
+
+.sign-up-teacher-title,
+.sign-up-student-title {
+  color: #707070;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.student-mid-signup-btn,
+.teacher-mid-signup-btn,
+.teacher-mid-login-btn,
+.student-mid-login-btn {
+  border: none;
+  text-decoration: none;
+  background-color: white;
+  color: #707070;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: nunito;
+  cursor: pointer;
+}
+
+.student-mid-signup-btn,
+.teacher-mid-signup-btn {
+  border-bottom: 4px solid #f91c85;
+  border-bottom-left-radius: 1px 1px;
+  border-bottom-right-radius: 1px 1px;
+}
+
+.teacher-mid-login-btn,
+.student-mid-login-btn {
+  border-bottom: 4px solid #43c0f6;
+  border-bottom-left-radius: 1px 1px;
+  border-bottom-right-radius: 1px 1px;
+}
+
+.student-mid-signup-btn-inactive,
+.teacher-mid-signup-btn-inactive,
+.teacher-mid-login-btn-inactive,
+.student-mid-login-btn-inactive {
+  border: none;
+  text-decoration: none;
+  background-color: white;
+  color: #a5a5a5;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: nunito;
+  cursor: pointer;
+}
+
+.sign-up-input,
+.log-in-input {
+  padding: 5px 17px;
+  margin-top: 4%;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 1px solid #a29f9f;
+  /* box-shadow: 1px 1px #a29f9f; */
+}
+
+.sign-up-input {
+  margin-bottom: 1%;
+}
+
+.sign-up-btn,
+.log-in-btn {
+  margin-top: 4%;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #f91c85;
+  background-color: #f91c85;
+  color: white;
+  font-family: nunito;
+  font-weight: 700;
+  padding: 5px 35px;
+  box-shadow: 1px 2px #a29f9f;
+  cursor: pointer;
+}
+
+.sign-up-btn-disabled {
+  margin-top: 4%;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #f91c85;
+  background-color: #f858a5;
+  color: white;
+  font-family: nunito;
+  font-weight: 700;
+  padding: 5px 35px;
+  box-shadow: 1px 2px #a29f9f;
+}
+
+.log-in-btn {
+  margin-top: 5%;
+}
+
+.main-header-user-block img {
+  width: 70%;
+  height: auto;
+  object-fit: scale-down;
+}
+
+.log-in-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.log-in-input {
+  margin-top: 8%;
+}
+
+.errmsg-hidden,
+.hide {
+  display: none;
+}
+
+.form-instructions,
+.errmsg {
+  color: white;
+  font-family: nunito;
+  font-size: 10px;
+  background-color: #f91c85;
+  padding: 5px 10px;
+  border-radius: 8px;
+  max-width: 80%;
+  box-shadow: 1px 2px #a29f9f;
+  /* z-index: 10000; */
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.form-success,
+.form-para-success {
+  color: #707070;
+  text-align: center;
+}

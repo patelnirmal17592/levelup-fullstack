@@ -1,0 +1,35 @@
+
+.sf-profile-btn {
+    white-space: nowrap;
+    font-family: 'Nunito', sans-serif; 
+    font-weight: bold;
+    box-shadow: 0px 2px 2px #3d3d3d29;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 4vh;
+    /* padding: 2%; */
+    font-size: small;
+    align-items: center;
+}
+
+.btn-white-outlined {
+    background-color: #FFFFFF;
+    color: #43c0f6;
+    border: 2px solid;
+    border-color: #43c0f6;
+}
+
+.btn-magenta-solid {
+    background-color: #f91b85;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn-mustard-solid {
+    background-color: #e4ab2c;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+

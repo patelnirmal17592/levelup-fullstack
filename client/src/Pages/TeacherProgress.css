@@ -1,0 +1,14 @@
+.am-TeacherProgressTrackerPage {
+  max-width: 1920px;
+  max-height: 2180px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  background-color: #b2e4fa;
+}
+
+.am-progress-main-container {
+  height: 957px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

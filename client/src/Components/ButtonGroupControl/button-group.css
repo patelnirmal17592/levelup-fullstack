@@ -1,0 +1,27 @@
+.customButtonDivN {
+    display: flex;
+}
+
+.customButtonN {
+    width: 7rem;
+    background-color: #F7F0F0;
+    border:none;
+    color: black;
+}
+
+.customButtonN:nth-of-type(3) {
+    border-start-end-radius: 5px;
+    border-end-end-radius: 5px;
+    border-left: 1px solid rgb(188, 188, 188);
+}
+
+.customButtonN:nth-of-type(1) {
+    border-end-start-radius: 5px;
+    border-start-start-radius: 5px;
+    border-right: 1px solid rgb(188, 188, 188);
+}
+
+.activeN {
+    background: linear-gradient(#1C88FE,#1C88FE);
+    color: white;
+}

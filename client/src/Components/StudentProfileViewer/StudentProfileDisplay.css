@@ -1,0 +1,163 @@
+.profileDisplayContainerN {
+  width: 100%;
+  background-color: #eeeeee;
+  font-family: "Nunito", sans-serif;
+  color: #707070;
+  /* border: 1px solid red; */
+}
+
+.displayContentContainerN {
+  width: 60%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+  padding: 8rem 0;
+}
+
+.editProfileDivN {
+  border: 2px solid #43c0f6;
+  width: 30%;
+  height: 20rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 5rem 0;
+  border-radius: 30px;
+}
+
+.editProfileDivN img {
+  width: 10rem;
+  border: 5px solid #43c0f6;
+  border-radius: 50%;
+}
+
+.editProfileDivN button {
+  width: 10rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.9rem;
+  border: 2px solid #43c0f6;
+  border-radius: 10px;
+  color: #43c0f6;
+  font-weight: bold;
+  background-color: white;
+  padding: 0.3rem 0.8rem;
+  box-shadow: 0 2px 3px 0px #707070;
+}
+
+.editProfileDivN .activeEditN {
+  background-color: rgb(196, 248, 196);
+  color: green;
+  border: 2px solid green;
+  font-size: 0.85rem;
+}
+
+.editProfileDivN .activeEditN:hover {
+  background-color: green;
+  color: rgb(196, 248, 196);
+}
+
+.editProfileDivN button:hover {
+    color: white;
+    background-color: #43c0f6;
+    cursor: pointer;
+}
+
+.editProfileDivN button:nth-last-child(2) {
+  margin-top: 0.7rem;
+}
+
+.profileContentDivN {
+  border: 2px solid #43c0f6;
+  width: 70%;
+  background-color: white;
+  border-radius: 30px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.profileContentDivN h1 {
+  margin-top: 2rem;
+}
+
+.contentDividerN {
+  width: 100%;
+  /* border: 1px solid red; */
+  margin-top: 3.4rem;
+  margin-bottom: 1rem;
+}
+
+.contentTableN {
+  /* border: 1px solid red; */
+  width: 85%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.contentTableN tbody tr td{
+  /* border: 1px solid red; */
+  padding: 0.8em
+}
+
+.contentTableN tbody tr td:nth-child(1) {
+  color: #A5A5A5;
+}
+
+.contentTableN tbody tr td:nth-child(2) {
+  font-size: 1.1em;
+  padding-left: 7rem;
+}
+
+.serverResN {
+  position: absolute;
+  top: 5em;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 1rem 1rem;
+  margin-top: 1rem;
+  color: green;
+  background-color: rgb(196, 248, 196);
+  /* font-weight: bold; */
+  left: 50em;
+}
+
+*[contentEditable = 'true']{
+  outline: none;
+  /* background-color: #d6f3ff; */
+  border: 3px solid #b1e8ff;
+  border-radius: 30px;
+}
+
+*[contentEditable = 'true']:hover{
+  outline: none;
+  border: 3px solid #00b3ff;
+  border-radius: 30px;
+}
+
+*[contentEditable = 'true']:focus {
+  outline: none;
+  /* border: 3px solid #43c0f6; */
+  border: none;
+  border-radius: 30px;
+  box-shadow: inset 0px 0px 15px #00b3ff;
+  caret-color: #00b3ff;
+}
+
+.alertMessageN {
+  display: block;
+  border: 2px solid orange;
+  border-radius: 20px;
+  color: darkorange;
+  background-color: rgb(255, 237, 203);
+  font-size: 1.1rem;
+}
+
+.hiddenMessageN {
+  display: none;
+  border: none;
+}

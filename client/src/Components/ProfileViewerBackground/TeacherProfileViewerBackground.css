@@ -1,0 +1,26 @@
+.teacher-profile-viewer-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+  width: 100%;
+  height: 90vh;
+  z-index: -10;
+  font-family: "Nunito", sans-serif;
+}
+
+.teacher-profile-viewer-container {
+  display: flex;
+} 
+
+.teacher-profile-viewer-buttons-and-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.teacher-profile-viewer-btn-style {
+  display: flex;
+  gap: 10%;
+  margin-right: 6%;
+}

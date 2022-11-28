@@ -1,0 +1,88 @@
+
+  
+  .sf-main-header-container {
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    height: 4rem;
+    background-color: #43C0F6;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .sf-main-content-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .sf-main-header-logo {
+    height: 3.5rem;
+    margin-bottom: 0.5rem;;
+  }
+  
+  .sf-main-header-nav-bar {
+    width: 23vw;
+    display:flex;
+    /* padding-bottom: 0.6rem; */
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  
+  .sf-main-header-nav-bar a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.1rem;
+  }
+  
+  .sf-main-header-lang-and-user {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+  }
+  
+  .sf-main-header-lang-block {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 1.5rem;
+  }
+
+  
+  .sf-main-header-user-block {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.09rem;
+    color: white;
+    /* margin-bottom: 0.5rem; */
+  }
+  
+  
+  .sf-main-header-user-block img {
+    height: 1.7rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .sf-main-header-user-text {
+    margin-bottom: 1.5rem;
+    color: white;
+    text-decoration: none;
+  }
+
+
+

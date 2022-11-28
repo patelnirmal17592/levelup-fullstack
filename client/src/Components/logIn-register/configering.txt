@@ -1,0 +1,52 @@
+<div className="sign-up-flex-container">
+      <div className="sign-up-student-container">
+        <div className="student-image-title-container">
+          <img
+            src={studentImg}
+            alt="students"
+            className="sign-up-student-image"
+          />
+          <h1 className="sign-up-student-title">Students</h1>
+        </div>
+        <div className="login-signup-btn">
+          <button className="student-mid-login-btn">LOG IN</button>
+          <button className="student-mid-signup-btn">SIGN UP</button>
+        </div>
+
+        </div>
+      <div className="sign-up-teacher-container">
+        <div className="teacher-image-title-container">
+          <button type="button" className="close-sign-up">
+            <i class="bi bi-x"></i>
+          </button>
+          <img
+            src={teacherImg}
+            alt="teachers"
+            className="sign-up-teacher-image"
+          />
+          <h1 className="sign-up-teacher-title">Teachers</h1>
+        </div>
+        <div className="login-signup-btn">
+          <button className="teacher-mid-login-btn">LOG IN</button>
+          <button className="teacher-mid-signup-btn">SIGN UP</button>
+        </div>
+        <form className="sign-up-form">
+          <input type="text" placeholder="Full Name" />
+          <input type="text" placeholder="Email Address" />
+          <input type="password" placeholder="Password" />
+          <input type="password" placeholder="Confirm Password" />
+          <button className="login-btn">SIGN UP</button>
+        </form>
+      </div>
+    </div>
+
+
+    const [login, setLogin] = useState(false);
+
+const loginForm = () => {
+  setLogin(true);
+};
+
+const signUpForm = () => {
+  setLogin(false);
+};

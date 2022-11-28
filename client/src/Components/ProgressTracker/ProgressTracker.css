@@ -1,0 +1,126 @@
+.am-progress-tracker-main-container {
+  height: 90%;
+  width: 95%;
+  float: right;
+  background-color: #d9f2fd;
+  border-radius: 30px;
+}
+
+.am-student-project-completion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.scroll {
+  overflow-y: scroll;
+  max-height: 70%;
+  margin-right: 20px;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 18px;
+  margin-right: 20%;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background-color: white;
+  border-radius: 10px;
+}
+.scroll::-webkit-scrollbar-thumb {
+  background-color: #43c0f6;
+  height: 10px;
+  width: 15px;
+  border-radius: 10px;
+}
+
+.am-student-container-main {
+  display: flex;
+  justify-content: space-evenly;
+  /* height: 20%; */
+  padding: 1.2% 0;
+  margin: 1% 0;
+  margin-right: 2%;
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.am-student-name-container {
+  width: 20%;
+  padding-left: 1%;
+}
+
+.am-numbers-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+.am-student-name {
+  font-size: 20px;
+  color: #707070;
+  font-weight: 700;
+}
+
+.am-projects-completed {
+  font-size: 14px;
+  color: #707070;
+}
+
+.am-circles {
+  width: 36px;
+  height: 36px;
+  border-radius: 44px;
+  border: 1px solid #a2a0a0;
+  box-shadow: 0 8px 10px #e8e8e8;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.am-circles.green {
+  background-color: #99edcc;
+}
+
+.numbers {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  color: #6c6c6c;
+}
+
+.am-heading-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  margin-top: 5%;
+}
+
+.am-title-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 9%;
+  margin-right: 12%;
+}
+
+.beginner,
+.export {
+  color: #707070;
+}
+
+.beginner {
+  font-size: large;
+  font-family: nunito, black;
+  font-weight: bolder;
+}
+.export {
+  font-size: 18px;
+}

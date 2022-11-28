@@ -1,0 +1,16 @@
+.small-edit-box-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    margin-right: 13%;
+    width: 16vw;
+    height: 48vh;
+    background-color: white;
+    border: 2px solid #E2DFDF;
+    border-radius: 8px;
+}
+
+.small-edit-box-profile-pic {
+    padding: 6%;
+}
+

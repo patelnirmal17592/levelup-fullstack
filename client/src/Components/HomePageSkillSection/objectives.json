@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "title": "Learning pathways",
+    "subtitle": "The programme enhances capabilities of students in the 5 learning pathways identified in the New Zealand Curriculum:",
+    "points": {
+      "one": "THINKING In particular the programme focused on problem solving, design thinking and computational thinking.",
+      "two": "SELF-MANAGEMENT Assignments and challenges are meant to inspire students to learn about and put self-motivation into practise.",
+      "three": "DISCERNING CODES Analysing language, symbols, and texts in order to understand and make sense of the codes in which knowledge is expressed.",
+      "four": "RELATIONSHIPS WITH PEERS The programme is designed with unplugged sessions where students interact in a range of different situations, including things like being able to listen well, recognise different points of view, and share ideas.",
+      "five": "CONFUSING CODES examining language, symbols, and texts to comprehend and make sense of the coding used to communicate knowledge"
+    }
+  },
+  {
+    "id": "2",
+    "title": "Digital technologies",
+    "subtitle": "The programme enhances capabilities of students in the 5 digital technologies identified in the New Zealand Curriculum:",
+    "points": {
+        "one": "SELF-MANAGEMENT Projects and challenges are designed to motivate students to explore and experiment with self-motivation",
+        "two": "CONTROVERSIAL CODES understanding and making sense of the codes that knowledge is expressed in through analysing language, symbols, and texts.",
+        "three": "THINKING The programme put a special emphasis on computational thinking, design thinking, and problem solving. ",
+        "four": "RELATIONSHIPS WITH PEERS The programme is designed with unplugged sessions where students interact in a range of different situations, including things like being able to listen well, recognise different points of view, and share ideas.",
+        "five": "THINKING Problem solving, computational thinking, and design thinking were given particular attention throughout the programme."
+      }
+  },
+  {
+    "id": "3",
+    "title": "Key competencies",
+    "subtitle": "The programme enhances capabilities of students in the 5 Key Competencies identified in the New Zealand Curriculum:",
+    "points": {
+        "one": "INTERESTS WITH PEERS The curriculum includes unplugged sessions when students engage in a variety of interactions, including things like being able to listen attentively, recognise various points of view, and express ideas.",
+        "two": "DISCERNING CODES Analysing language, symbols, and texts in order to understand and make sense of the codes in which knowledge is expressed.",
+        "three": "SELF-MANAGEMENT The purpose of assignments and challenges is to encourage pupils to investigate and practise self-motivation.",
+        "four": "Collaboration and participation The curriculum encourages children to participate in their communities, including their families, whanau, and schools, and to give back and form relationships with others.",
+        "five": "PARTICIPATION AND COLLABORATION The programme encourages students to be involved in communities, such as family, whānau, school, and contribute and make connections with other people"
+      }
+  },
+  {
+    "id": "4",
+    "title": "IR4.0",
+    "subtitle": "The curriculum strengthens pupils' ability in the five IR4.0 listed in the New Zealand curriculum:",
+    "points": {
+        "one": "THINKING Problem solving, computational thinking, and design thinking were given particular attention throughout the programme.",
+        "two": "CONFUSING CODES examining language, symbols, and texts to comprehend and make sense of the coding used to communicate knowledge",
+        "three": "SELF-MANAGEMENT The purpose of assignments and challenges is to encourage pupils to investigate and practise self-motivation.",
+        "four": "INTERESTS WITH PEERS The curriculum includes unplugged sessions when students engage in a variety of interactions, including things like being able to listen attentively, recognise various points of view, and express ideas.",
+        "five": "Collaboration and participation The curriculum encourages children to participate in their communities, including their families, whanau, and schools, and to give back and form relationships with others."
+      }
+  }
+]

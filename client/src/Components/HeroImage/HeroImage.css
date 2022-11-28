@@ -1,0 +1,80 @@
+.hero-small-print {
+  font-size: 0.5rem;
+}
+
+.hero-text {
+  font-family: "Nunito", sans-serif;
+  position: relative;
+  overflow: auto;
+  color: #707070;
+}
+
+.hero-pic {
+  display: flex;
+  width: 100%; 
+}
+
+.hero-image-text {
+  position: absolute;
+  width: 30vw;
+  left: 5%;
+  top: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sf-hero-image-header-text {
+  font-size: 2rem;
+}
+
+.sf-hero-image-small-text {
+  font-size: 1rem;
+}
+
+.hero-btn-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 5%;
+}
+
+.btn-with-small-print {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 12vw;
+}
+
+@media only screen and (min-width: 768px) {
+  .sf-hero-image-header-text {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* .sf-hero-image-header-text {
+    font-size: 1.3rem;
+  } */
+  .hero-pic {
+    width: unset;
+    overflow: hidden;
+  }
+  .hero-small-print,
+  .hero-image-text,
+  .sf-hero-image-header-text,
+  .btn-with-small-print,
+  .hero-btn-style {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80vw;
+  }
+
+  .btn-with-small-print {
+    display: none;
+  }
+
+  .sf-hero-image-header-text {
+    font-size: 2.5rem;
+  }
+}

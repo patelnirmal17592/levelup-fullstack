@@ -1,0 +1,212 @@
+[
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2019/09/image-67.png?resize=300%2C227&ssl=1",
+      "title": "Introduction",
+      "level": "BEGINNER",
+      "activity_type": "Animation"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2020/02/image-6.png?resize=300%2C227&ssl=1",
+      "title": "My Birthday",
+      "level": "INTERMEDIATE",
+      "activity_type": "Game"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2019/08/image-42.png?resize=300%2C223&ssl=1",
+      "title": "10 Block Challenge",
+      "level": "ADVANCED",
+      "activity_type": "Chatbot"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2019/08/image-43.png?resize=300%2C226&ssl=1",
+      "title": "Build a band",
+      "level": "BEGINNER",
+      "activity_type": "Augmented reality"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2020/02/Level05-output.gif?fit=300%2C223&ssl=1",
+      "title": "The bear and the monkey",
+      "level": "INTERMEDIATE",
+      "activity_type": "Animation"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2019/08/image-50.png?resize=300%2C227&ssl=1",
+      "title": "Debugging",
+      "level": "ADVANCED",
+      "activity_type": "Game"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2019/08/image-56.png?resize=300%2C227&ssl=1",
+      "title": "About me",
+      "level": "BEGINNER",
+      "activity_type": "Chatbot"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2020/02/Level08-output.gif?fit=300%2C226&ssl=1",
+      "title": "I am here!",
+      "level": "INTERMEDIATE",
+      "activity_type": "Augmented reality"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2020/02/Level09-output.gif?fit=300%2C224&ssl=1",
+      "title": "Funny faces",
+      "level": "ADVANCED",
+      "activity_type": "Animation"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2020/02/Level10-output.gif?fit=300%2C226&ssl=1",
+      "title": "It tickles!",
+      "level": "BEGINNER",
+      "activity_type": "Game"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2020/02/Level11-output.gif?fit=300%2C226&ssl=1",
+      "title": "Penguin in a Desert",
+      "level": "INTERMEDIATE",
+      "activity_type": "Chatbot"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2020/02/Level12-output.gif?fit=300%2C227&ssl=1",
+      "title": "Time Travel",
+      "level": "ADVANCED",
+      "activity_type": "Augmented reality"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2019/07/image-56.png?resize=300%2C227&ssl=1",
+      "title": "Birthday Card",
+      "level": "BEGINNER",
+      "activity_type": "Animation"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2019/08/image-151.png?resize=300%2C228&ssl=1",
+      "title": "The Lion and the Mouse Part 1",
+      "level": "INTERMEDIATE",
+      "activity_type": "Game"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2019/08/image-162.png?resize=300%2C229&ssl=1",
+      "title": "The Lion and the Mouse Part 2",
+      "level": "ADVANCED",
+      "activity_type": "Chatbot"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2019/09/image-67.png?resize=300%2C227&ssl=1",
+      "title": "Introduction",
+      "level": "BEGINNER",
+      "activity_type": "Augmented reality"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2020/02/image-6.png?resize=300%2C227&ssl=1",
+      "title": "My Birthday",
+      "level": "INTERMEDIATE",
+      "activity_type": "Animation"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2019/08/image-42.png?resize=300%2C223&ssl=1",
+      "title": "10 Block Challenge",
+      "level": "ADVANCED",
+      "activity_type": "Game"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2019/08/image-43.png?resize=300%2C226&ssl=1",
+      "title": "Build a band",
+      "level": "BEGINNER",
+      "activity_type": "Chatbot"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2020/02/Level05-output.gif?fit=300%2C223&ssl=1",
+      "title": "The bear and the monkey",
+      "level": "INTERMEDIATE",
+      "activity_type": "Augmented reality"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2019/08/image-50.png?resize=300%2C227&ssl=1",
+      "title": "Debugging",
+      "level": "ADVANCED",
+      "activity_type": "Animation"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2019/08/image-56.png?resize=300%2C227&ssl=1",
+      "title": "About me",
+      "level": "BEGINNER",
+      "activity_type": "Game"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2020/02/Level08-output.gif?fit=300%2C226&ssl=1",
+      "title": "I am here!",
+      "level": "INTERMEDIATE",
+      "activity_type": "Chatbot"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2020/02/Level09-output.gif?fit=300%2C224&ssl=1",
+      "title": "Funny faces",
+      "level": "ADVANCED",
+      "activity_type": "Augmented reality"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2020/02/Level10-output.gif?fit=300%2C226&ssl=1",
+      "title": "It tickles!",
+      "level": "BEGINNER",
+      "activity_type": "Animation"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2020/02/Level11-output.gif?fit=300%2C226&ssl=1",
+      "title": "Penguin in a Desert",
+      "level": "INTERMEDIATE",
+      "activity_type": "Game"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2020/02/Level12-output.gif?fit=300%2C227&ssl=1",
+      "title": "Time Travel",
+      "level": "ADVANCED",
+      "activity_type": "Chatbot"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2019/07/image-56.png?resize=300%2C227&ssl=1",
+      "title": "Birthday Card",
+      "level": "BEGINNER",
+      "activity_type": "Augmented reality"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2019/08/image-151.png?resize=300%2C228&ssl=1",
+      "title": "The Lion and the Mouse Part 1",
+      "level": "INTERMEDIATE",
+      "activity_type": "Animation"
+    },
+    {
+      "image":
+        "https://i0.wp.com/levelupworks.com.wonderbean.a2hosted.com/levels/wp-content/uploads/2019/08/image-151.png?resize=300%2C228&ssl=1",
+      "title": "The Lion and the Mouse Part 1",
+      "level": "ADVANCED",
+      "activity_type": "Game"
+    }
+]

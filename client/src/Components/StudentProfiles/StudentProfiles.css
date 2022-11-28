@@ -1,0 +1,66 @@
+.am-student-profile-main-container {
+  height: 90%;
+  width: 95%;
+  float: right;
+  background-color: #d9f2fd;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.am-student-scroll {
+  overflow-y: scroll;
+  max-height: 80%;
+  width: 85%;
+  margin-right: 20px;
+}
+
+.am-student-scroll::-webkit-scrollbar {
+  width: 18px;
+  margin-right: 20%;
+}
+
+.am-student-scroll::-webkit-scrollbar-track {
+  background-color: white;
+  border-radius: 10px;
+}
+.am-student-scroll::-webkit-scrollbar-thumb {
+  background-color: #43c0f6;
+  height: 10px;
+  width: 15px;
+  border-radius: 10px;
+}
+
+.am-student-profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-right: 2%;
+  /* width: 80%;
+  height: 95%; */
+}
+
+.am-student-profiles {
+  border-radius: 15px;
+  height: 182px;
+  width: 17%;
+  background-color: white;
+  font-size: 14px;
+  color: #707070;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+  margin-left: 1%;
+  box-shadow: 0 6px 8px #c5c4c4;
+}
+
+.am-student-image {
+  max-height: 104px;
+  max-width: 104px;
+}

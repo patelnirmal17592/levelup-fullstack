@@ -1,0 +1,133 @@
+.am-side-nav-main-container {
+  height: 957px;
+  width: 15%;
+  background-color: #43c0f6;
+  float: left;
+}
+.am-side-nav-main-container.inactive {
+  width: 8%;
+}
+.spacer1 {
+  height: 60px;
+  width: 100%;
+}
+.spacer2 {
+  height: 200px;
+  width: 100%;
+}
+.toggle-nav-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.bi-caret-left-fill,
+.bi-caret-right-fill {
+  color: #f91c85;
+  font-size: 50px;
+}
+.bi-caret-left-fill.hidden,
+.bi-caret-right-fill.hidden,
+.menu-item-hidden,
+.nav-footer-item-hidden,
+button.hidden {
+  display: none;
+}
+.am-top-section {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.am-profile-img,
+.menu-items-center {
+  justify-content: center;
+  display: flex;
+}
+.am-profile-img {
+  margin-top: 20%;
+}
+.am-teacher-profile-img {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.am-menu {
+  margin-top: 10%;
+  height: 65%;
+  width: 100%;
+}
+.nav-icons {
+  margin-right: 4%;
+  margin-left: 10%;
+  font-size: 1.5rem;
+}
+.nav-icons.large {
+  font-size: 2rem;
+}
+.menu-items {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 53px;
+  width: 100%;
+  text-align: left;
+  color: #fff;
+  font-size: 14px;
+  margin-right: 1rem;
+}
+.menu-items-center {
+  align-items: center;
+  height: 85px;
+  width: 100%;
+  text-align: left;
+  color: #fff;
+}
+.menu-items-center:hover,
+.menu-items:hover {
+  background-color: #b2e4fa;
+  color: #707070;
+}
+.arrow-left-btn {
+  border: none;
+  border-radius: 10px 0 0 10px;
+  background-color: #b2e4fa;
+}
+.arrow-right-btn {
+  border: none;
+  border-radius: 0 10px 10px 0;
+  background-color: #b2e4fa;
+}
+.nav-footer-items-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 50%;
+  height: 10%;
+  width: 100%;
+}
+.nav-footer-items-container-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20%;
+  height: 20%;
+  width: 100%;
+}
+.nav-footer-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  width: 25%;
+  height: 19%;
+  color: #fff;
+  cursor: pointer;
+}
+.nav-footer-icons {
+  font-size: 1rem;
+}
+.nav-footer-icons.large {
+  font-size: 1.5rem;
+}

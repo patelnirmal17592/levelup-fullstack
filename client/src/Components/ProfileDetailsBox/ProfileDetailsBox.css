@@ -1,0 +1,28 @@
+
+.teacher-profile-detail-box-background {
+  display: flex;
+  justify-content: center;
+  color: #707070;
+  background-color: #ffffff;
+  border: 1px solid #E2DFDF;
+  margin-bottom: 5%;
+  padding: 5%;
+  height: 60vh;
+  width: 40vw;
+  border-radius: 8px;
+}
+
+.teacher-profile-detail-box-name-title {
+display: flex;
+justify-content: center;
+}
+
+.teacher-profile-detail-box-columns {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8rem;
+}
+
+
+
